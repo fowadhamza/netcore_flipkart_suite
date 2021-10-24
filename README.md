@@ -10,7 +10,7 @@
 - Maven
  
 ```sh
-mvn clean instal
+mvn clean install
 ```
 
 The cucumber html report is generated in the root folder in **target\cucumber-html-reports**
