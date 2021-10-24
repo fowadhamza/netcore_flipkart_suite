@@ -1,0 +1,216 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify If I can create a Leads Campaign",
+        "description": "",
+        "id": "flipkart;verify-if-i-can-create-a-leads-campaign",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9065898700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to https://www.flipkart.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.flipkart.com",
+                  "offset": 8
+                }
+              ],
+              "location": "GivenSteps.open1(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 392138300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the login overlay close button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login overlay close",
+                  "offset": 15
+                },
+                {
+                  "val": "button",
+                  "offset": 35
+                }
+              ],
+              "location": "WhenSteps.clickOnTheElement(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165319400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the home page should appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home",
+                  "offset": 4
+                },
+                {
+                  "val": "page",
+                  "offset": 9
+                }
+              ],
+              "location": "ThenSteps.verifyThePage(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 269579000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the search bar - Iphone",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search bar",
+                  "offset": 12
+                },
+                {
+                  "val": "Iphone",
+                  "offset": 25
+                }
+              ],
+              "location": "WhenSteps.enterTheStringInTextbox(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234316100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search",
+                  "offset": 15
+                },
+                {
+                  "val": "button",
+                  "offset": 22
+                }
+              ],
+              "location": "WhenSteps.clickOnTheElement(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1324823900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the search page should appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search",
+                  "offset": 4
+                },
+                {
+                  "val": "page",
+                  "offset": 11
+                }
+              ],
+              "location": "ThenSteps.verifyThePage(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 273157900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the sort low high link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sort low high",
+                  "offset": 15
+                },
+                {
+                  "val": "link",
+                  "offset": 29
+                }
+              ],
+              "location": "WhenSteps.clickOnTheElement(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117047600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the search page should appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search",
+                  "offset": 4
+                },
+                {
+                  "val": "page",
+                  "offset": 11
+                }
+              ],
+              "location": "ThenSteps.verifyThePage(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4980517100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should store the product name link,product price link,product rating link for max price of INR40000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "product name link,product price link,product rating link",
+                  "offset": 19
+                },
+                {
+                  "val": "40000",
+                  "offset": 96
+                }
+              ],
+              "location": "WhenSteps.storeSearch(String,Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart",
+    "description": "",
+    "id": "flipkart",
+    "keyword": "Feature",
+    "uri": "features/FetchProducts.feature"
+  }
+]
